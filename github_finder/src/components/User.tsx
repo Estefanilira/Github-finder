@@ -14,7 +14,7 @@ const User = ({
 }: UserProps) => {
     return (
         <div className={classes.user}>
-            <img src={avatar_url} alt={login} />
+            <img className={classes.profile} src={avatar_url} alt={login} />
             <h2>{login}</h2>
             {location && (
                 <p className={classes.location}>
